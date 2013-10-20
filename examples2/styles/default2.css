@@ -1,0 +1,50 @@
+html, img, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f00;
+}
+
+.news-list {
+    margin: 20px;
+    border-bottom: 1px solid #cccccc;
+    width: 300px;
+}
+
+.news {
+    position: relative;
+    padding: 5px 0 0 111px;
+    min-height: 64px;
+    border-top: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.picture {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.news-title {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px 0 0 0;
+}
+
+.preview {
+    margin: 5px 0 0 0;
+}
