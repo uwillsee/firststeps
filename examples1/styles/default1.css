@@ -1,0 +1,63 @@
+html, div, img{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetice, sans-serif;
+    font-size:14px;
+    color: #000;
+    /*background: #ccc url(../images/bg.jpg) repeat 0 0;*/
+}
+
+a{
+    color: #5860d2;
+}
+
+a:hover{
+    color: #6068ef;
+}
+
+.friends-list{
+    margin: 20px;
+}
+
+.friend{
+    position: relative;
+    padding-left:100px;
+    min-height:100px;
+    margin: 20px;
+}
+
+
+.avatar-wrapper{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius:50px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
+.avatar{
+    width: 100px;
+}
+
+.name{
+    display: inline-block;
+    font-size:20px;
+    vertical-align: top;
+    margin: 25px 0 0 10px;
+}
+
+.phone{
+    display: block;
+    vertical-align: top;
+    margin: 10px 0 0 10px;
+}
